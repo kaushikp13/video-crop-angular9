@@ -1,23 +1,19 @@
-::ng-deep body{
+::ng-deep body {
     margin: 0 !important;
     padding: 0 !important;
+    overflow: hidden;
 }
 
-.main-video-wrapper {
-    width: 100%;
-    overflow: hidden;
-    height: auto;
+.hero-wrapper {
+    min-height: 100vh;
     display: flex;
+    align-items: center;
     justify-content: center;
-    .inner-video-wrapper {
-        width: 100%;
-        height: auto;
-        overflow: hidden;
-        position: relative;
-        video {
-            width: auto;
-            height: auto;
-            object-fit: cover;
-        }
-    }
+}
+.hero
+{
+    width: 100%;
+}
+canvas {
+    margin-top: -18px;
 }
